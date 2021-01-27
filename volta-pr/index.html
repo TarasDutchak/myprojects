@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <div class="header__logo">
+                        <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img class="phone-burger" src="image/burger-icon.svg" alt="burger">
+                    <div class="header__nav">
+                        <img src="image/close-icon.svg" alt="close menu" class="close-phone-menu">
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-animate">
+        <img src="image/elements/el1.png" alt="image" class="bg-el1">
+        <img src="image/elements/el2.png" alt="image" class="bg-el2">
+    </div>
+    <main>
+        <div class="fixed-right-box">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="fixed-left-box">
+            <ul>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#app">YOUR app</a></li>
+                <li><a href="#rad">RAD</a></li>
+                <li class="active"><a href="#hello">Hello</a></li>
+            </ul>
+        </div>
+
+        <section class="main-topscreen" id="hello">
+            <div class="container">
+                <div class="rotate-animation-text">
+                    <p class="change-text__animation">
+                        We make applications<br>
+                        development
+                    </p>
+                    <div class="change-text__hiden">
+                        <ul class="change-text__list">
+                            <li class="change-text__list__item">Understandable</li>
+                            <li class="change-text__list__item">Intuitive</li>
+                            <li class="change-text__list__item">Fast</li>
+                            <li class="change-text__list__item">High quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-secondscreen" id="rad">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-6 col-md-6">
+                        <div class="main-secondscreen__left-box">
+                            <p class="title">Volta pursues the innovative RAD (rapid application development)
+                                principle of client service</p>
+                            <p>We accelerate every stage of development to a level never seen before.</p>
+                            <p>
+                                Now you, as a client don't need to spend weeks in a waiting line to estimate your
+                                project, than months in ignorance guessing if the contractor has understood you
+                                properly.
+                            </p>
+                            <p>Let's make a process of development an enjoyable thing!</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 col-md-6">
+                        <div class="main-secondscreen__right-box">
+                            <p class="title">No pitfalls. You know<br> the price before the<br> work starts</p>
+                            <div class="rad-animation">
+                                <img class="rad-num" src="image/rad-pic.png" alt="image">
+                                <img class="rad-arrow" src="image/rad-arrow.png" alt="arrow">
+                            </div>
+                            <div class="row main-secondscreen__aftrad-text">
+                                <div class="col-md-6 col-6">
+                                    <p>Twice faster than anyone<br>
+                                        on the market</p>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <p>Always on the line<br>
+                                        with client</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="estimate" id="app">
+            <div class="container">
+                <h2>Let's make an estimate<br>
+                    for your future app</h2>
+                <form action="">
+                    <div class="estimate__platform">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <p class="estimate__title">Choose preferable
+                                    platform(s)</p>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="estimate__select">
+                                    <select name="" id="">
+                                        <option value="0">iOS</option>
+                                        <option value="1">Android</option>
+                                        <option value="2">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate__prefferable">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <p class="estimate__title">Preferrable<br>
+                                    features</p>
+                            </div>
+                            <div class="col-xl-9 offset-xl-0 col-lg-11 offset-lg-1 col-md-11 offset-md-1">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable1" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable1">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Messaging</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable2" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable2">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Facebook<br>
+                                                        Authorization</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable3" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable3">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Payment Processing</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable4" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable4">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app4.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Geolocation
+                                                        features/map</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable5" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable5">
+                                                <div class="estimate_icon">
+                                                    <!-- <img src="image/app/app3.svg" alt="icon"> -->
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Booking system</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable6" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable6">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app6.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>File uploading</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable7" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable7">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app7.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>CRM inegration</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable8" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable8">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app8.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Audiocalls</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="prefferable9" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="prefferable9">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app9.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Videocalls</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate__accounts">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6">
+                                <p class="estimate__title">Users & Accounts</p>
+                            </div>
+                            <div class="col-xl-9 offset-xl-0 col-lg-11 offset-lg-1 col-md-11 offset-md-1">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts1" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts1">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-1.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Email /<br>
+                                                        Password Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts2" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts2">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Facebook Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts3" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts3">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-3.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Twitter Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts4" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts4">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-4.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Google Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts5" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts5">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-5.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>LinkedIn Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts6" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts6">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-6.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Github Sign Up</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts7" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts7">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-7.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>User Invitation<br>
+                                                        Emails</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts8" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts8">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-8.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Multi-tenant<br>
+                                                        Accounts</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts9" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts9">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-9.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Subdomains</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="accounts10" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="accounts10">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app1-10.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Custom Domains</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate__genercontent">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-5">
+                                <p class="estimate__title">User Generated
+                                    Content</p>
+                            </div>
+                            <div class="col-xl-9 offset-xl-0 col-lg-11 offset-lg-1 col-md-11 offset-md-1">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent1" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent1">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-1.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Dashboard</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent2" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent2">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-2.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Activity Feed</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent3" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent3">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-3.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>File Uploading</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent4" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent4">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-4.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>User Profiles</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent5" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent5">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-5.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Transactional Emails</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent6" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent6">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-6.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Tags</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent7" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent7">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-7.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Ratings or reviews</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent8" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent8">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-8.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Audio/Video<br>
+                                                        processing</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="genercontent9" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="genercontent9">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app2-9.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Free text searching</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate__feedback">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-5">
+                                <p class="estimate__title"> Admin, Feedback
+                                    & Analytics</p>
+                            </div>
+                            <div class="col-xl-9 offset-xl-0 col-lg-11 offset-lg-1 col-md-11 offset-md-1">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback1" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback1">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-1.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>CMS Integration</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback2" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback2">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-2.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>User Admin pages</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback3" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback3">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-3.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Moderation /<br>
+                                                        Content Approval
+                                                    </p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback4" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback4">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-4.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Intercom</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback5" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback5">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-5.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Usage Analytics</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback6" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback6">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-6.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Crash Reporting</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback7" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback7">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-7.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Performance <br>
+                                                        Monitoring</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <input type="checkbox" id="feedback8" class="app-check">
+                                        <div class="estimate_choosebox">
+                                            <label class="estimate_wrapper" for="feedback8">
+                                                <div class="estimate_icon">
+                                                    <img src="image/app/app3-8.svg" alt="icon">
+                                                </div>
+                                                <div class="estimate_text">
+                                                    <p>Multilingual Support
+                                                    </p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate__bottomsect">
+                        <div class="row">
+                            <div class="col-xl-9 offset-xl-3 col-lg-11 offset-lg-1 col-md-11 offset-md-1">
+                                <p>Approximate price <span>25,000$</span></p>
+                            </div>
+                            <div class="col-xl-4 offset-xl-3 col-lg-5 offset-lg-1 col-md-5 offset-md-1">
+                                <div class="btn-gradient-wrap">
+                                    <span class="gradient-btn" data-toggle="modal"
+                                        data-target="#exampleModalCenter">Place a development order</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-5 col-md-5">
+                                <span class="transparent-btn" data-toggle="modal" data-target="#exampleModalCenter1">Add
+                                    more personalized info</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2019, Volta development</p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="image/close-modal.svg" alt="close">
+                </button>
+                <div class="popup-sect">
+                    <form action="">
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Contact</p>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="name@gmail.com">
+                            </div>
+                        </div>
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Estimated
+                                    order price</p>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="" value="$ 35 000">
+                            </div>
+                        </div>
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Comments</p>
+                            </div>
+                            <div class="col-md-9">
+                                <textarea placeholder="Type your message..."></textarea>
+                            </div>
+                        </div>
+                        <div class="buttons-section">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <i class="fab fa-telegram-plane"></i>
+                                        Telegram<br>
+                                        support
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-messenger"></i>
+                                        Messenger<br>
+                                        support
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="submit" class="subm-pop" value="Place order">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="image/close-modal.svg" alt="close">
+                </button>
+                <div class="popup-sect">
+                    <form action="">
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Contact</p>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="name@gmail.com">
+                            </div>
+                        </div>
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Estimated
+                                    order price</p>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="" value="$ 35 000">
+                            </div>
+                        </div>
+                        <div class="row align-items-center modal-field">
+                            <div class="col-md-3">
+                                <p class="title">Specify
+                                    your order</p>
+                            </div>
+                            <div class="col-md-9">
+                                <textarea placeholder="Type your message..."></textarea>
+                            </div>
+                        </div>
+                        <div class="buttons-section">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <i class="fab fa-telegram-plane"></i>
+                                        Telegram<br>
+                                        support
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-messenger"></i>
+                                        Messenger<br>
+                                        support
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="submit" class="subm-pop" value="Estimate my order">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

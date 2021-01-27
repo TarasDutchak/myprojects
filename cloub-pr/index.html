@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-3 col-4 d-flex align-items-center">
+                    <div class="header__logo">
+                        <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-1 col-sm-1 col-2 d-flex align-items-center">
+                    <div class="burger-btn"></div>
+                    <nav class="header__menu">
+                        <div class="closemenu"><img src="images/icons/close-button.svg" alt="close"></div>
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="details.html">Функциональность</a></li>
+                            <li class="dropdown">
+                                <span>Цены</span>
+                                <ul class="sublist">
+                                    <li><a href="price.html">Price page</a></li>
+                                    <li><a href="price.html">Price page</a></li>
+                                    <li><a href="price.html">Price page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.html">Портфолио</a></li>
+                            <li style="opacity: .2; pointer-events: none;"><a href="#">Этапы</a></li>
+                            <li><a href="news.html">Новости</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-8 col-sm-8 col-6 d-flex align-items-center">
+                    <div class="header__contact">
+                        <a class="phonenum" href="tel:0983673737"><span>(098) 367 37 37</span></a>
+                        <a href="" class="header__lang">RU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="firstsect">
+            <img class="firstsect__bg" src="images/pic1.jpg" alt="background">
+            <img class="firstsect__pic" src="images/pic2.png" alt="img">
+            <div class="container">
+                <div class="firstsect__infoblock">
+                    <h1>Веб-личный кабинет дилера на базе платформы ClouB</h1>
+                    <p class="description">
+                        Мы разрабатываем и внедряем B2B порталы для автоматизации оптовых продаж
+                    </p>
+                    <div class="buttonsbox">
+                        <a href="#" class="bluebtn"><span>Демо-версия</span></a>
+                        <a href="#" class="modal-consult"><span>Консультация с экспертом</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="todown">
+                <a href="#secondscreen">Вниз</a>
+            </div>
+        </section>
+
+        <section class="secondsect" id="secondscreen">
+            <div class="container">
+                <div class="pics-wrapper">
+                    <ul class="change-photobtns">
+                        <li class="active"><a href="#" data-toggle="tab" class="take0"><span>До внедрения B2B
+                                    портала</span></a></li>
+                        <li><a href="#" data-toggle="tab" class="take100"><span>После внедрения B2B</span></a>
+                        </li>
+                    </ul>
+                    <div class="juxtapose" data-startingposition="95%" data-animate="true">
+                        <img src="images/pic4.png" alt="before">
+                        <img src="images/pic1.png" alt="after">
+                    </div>
+                </div>
+                <div class="automatization">
+                    <div class="row no-gutters">
+                        <div class="col-lg-10">
+                            <h3 class="section-title">автоматизируйте свои оптовые продажи и переведите своих партнеров
+                                на самообслуживание</h3>
+                        </div>
+                        <div class="col-lg-4 d-flex align-items-center">
+                            <div class="automatization__descr">
+                                <p>
+                                    Мы разработали систему с большим клиентским функционалом, которая вплотную
+                                    интегрируется с вашей учетной системой 1С . Разнообразный и богатый опыт реализация
+                                    намеченных плановых заданий позволяет оценить значение соответствующий условий
+                                    активизации. Не следует, однако забывать, что начало повседневной работы по
+                                    формированию позиции представляет собой интересный эксперимент проверки направлений
+                                </p>
+                                <a href="#" class="blue-button"><span>Заказать презентацию</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <img src="images/1.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="whyneed">
+            <img src="images/dark-figure.png" alt="image" class="figure">
+            <div class="container">
+                <div class="whyneed__content">
+                    <div class="row">
+                        <div class="col-xl-8 offset-lg-1">
+                            <h3 class="section-title white-color">ПОЧЕМУ ЭТО НУЖНО</h3>
+                            <div class="whyneed__lists">
+                                <div class="whyneed__list">
+                                    <img src="images/icons/money-bag.svg" alt="icon">
+                                    <p class="title">Экономия времени и средств</p>
+                                    <ul>
+                                        <li>
+                                            <span>1. </span>
+                                            Оптимизирует бизнес-процесс на предприятии
+                                        </li>
+                                        <li>
+                                            <span>2. </span>
+                                            Упростит взаимодействие с партнером (дилером)
+                                        </li>
+                                        <li>
+                                            <span>3. </span>
+                                            Ускорит обработку заказов в разы
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="whyneed__list">
+                                    <img src="images/icons/teamwork.svg" alt="icon">
+                                    <p class="title">Автоматизация рутинной работы</p>
+                                    <ul>
+                                        <li>
+                                            <span>1. </span>
+                                            Снижает физическую и моральную нагрузку с менеджеров
+                                        </li>
+                                        <li>
+                                            <span>2. </span>
+                                            Перераспределяет должностные обязанности, за счет диджитализации
+                                        </li>
+                                        <li>
+                                            <span>3. </span>
+                                            Нет необходимости расширять штат
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="whyneed__list">
+                                    <img src="images/icons/graph.svg" alt="icon">
+                                    <p class="title">Правильная инвестиция в будущее</p>
+                                    <ul>
+                                        <li>
+                                            <span>1. </span>
+                                            Поможет достойно пережить экономический кризис
+                                        </li>
+                                        <li>
+                                            <span>2. </span>
+                                            Сильное конкурентное преимущество
+                                        </li>
+                                        <li>
+                                            <span>3. </span>
+                                            Мировой тренд в B2B E-commerce
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="functionality">
+            <div class="container">
+                <h3 class="section-title-center ">ФУНКЦИОНАЛЬНОСТЬ</h3>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Персональные цены и актуальные остатки
+                            </p>
+                            <p class="descr">
+                                Благодаря плотной интеграции с учетной системой 1С, дилер получает, в режиме 24/7 -
+                                прямой доступ к актуальным остаткам склада, по персональным ценам с учетом всех скидок.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Мультикорзина и оформление заказа
+                            </p>
+                            <p class="descr">
+                                Благодаря плотной интеграции с учетной системой 1С, дилер получает, в режиме 24/7 -
+                                прямой доступ к актуальным остаткам склада, по персональным ценам с учетом всех скидок.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Размещение заказа в 1С
+                            </p>
+                            <p class="descr">
+                                Все сформированные заказы на сайте передаются в 1С в раздел Заказы покупателей, ставятся
+                                в резерв и проводятся. Менеджер проверяет заказ, выписывает расходную накладную,
+                                производится отгрузка товара.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Размещение заказа в 1С
+                            </p>
+                            <p class="descr">
+                                Благодаря внедрению b2b порталу в личном кабинете отображаются все выгруженные из 1С
+                                заказы, с их статусами выполнения и оплаты. Дополнительно есть возможность открыть заказ
+                                и посмотреть детальную информацию.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Документооборот
+                            </p>
+                            <p class="descr">
+                                Отдельный раздел в который выводятся все документы по всем заказам клиента, с
+                                возможностью отфильтровать по типу (счета, расходные накладные, возвраты), дате или
+                                через поиск найти конкретный документ, с возможностью выбрать необходимые и скачать все
+                                архивом.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row functionality__sect">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/functionality.jpg" alt="image">
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-0 d-flex align-items-center">
+                        <div class="functionality__description">
+                            <p class="title">
+                                Балансы
+                            </p>
+                            <p class="descr">
+                                Для удобства всегда есть возможность проверить свой личный баланс - общую задолженность
+                                и просрочку, на страницу выводится история всех взаиморасчетов по договору и
+                                балансообразующие документы.
+                            </p>
+                            <a href="#" class="blue-link">Консультация с экспертом</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="infosection viewdemo">
+            <img class="infosection__figure" src="images/infosect-figure.png" alt="image">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-7">
+                        <h3>Посмотреть демо</h3>
+                        <p class="description">
+                            Мы разработали систему с большим клиентским функционалом, которая вплотную интегрируется с
+                            вашей учетной системой 1С . Разнообразный и богатый опыт реализация намеченных плановых
+                            заданий позволяет оценить значение соответствующий условий активизации. Для удобства всегда
+                            есть возможность проверить свой личный баланс - общую задолженность и просрочку.
+                        </p>
+                        <a href="#" class="blue-button"><span>Зарегистрироваться</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners-getting">
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic1">
+                                    <span>
+                                        <img src="images/icons/partners-icon1.svg" alt="icon">
+                                        Круглосуточный доступ к актуальным остаткам и ценам в своем личном
+                                        кабинете
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic2">
+                                    <span>
+                                        <img src="images/icons/partners-icon2.svg" alt="icon">
+                                        Возможность самостоятельно сделать заказ без прямого участия менеджера
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic3">
+                                    <span>
+                                        <img src="images/icons/partners-icon3.svg" alt="icon">
+                                        Доступ к истории заказов со статусами выполнения и оплаты
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-partners">
+                                <div class="partnersgett white">
+                                    <h3>
+                                        БЛАГОДАРЯ B2B ПОРТАЛУ ВАШИ ПАРТНЕРЫ ПОЛУЧАТ
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic4">
+                                    <span>
+                                        <img src="images/icons/partners-icon4.svg" alt="icon">
+                                        Полный документооборот: <br>- счета на оплату; <br>- расходные накладные; <br>-
+                                        возвратные
+                                        накладные
+                                    </span>
+
+                                </a>
+                            </div>
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic5">
+                                    <span>
+                                        <img src="images/icons/partners-icon5.svg" alt="icon">
+                                        Контроль над взаиморасчетами (лимиты, дебиторская задолженность,
+                                        просрочка).
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-partners">
+                                <a href="#" class="partnersgett pic6">
+                                    <span>
+                                        <img src="images/icons/partners-icon6.svg" alt="icon">
+                                        Простой и удобный интерфейс для работы в онлайн
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="infosection consultation">
+            <img class="infosection__figure" src="images/infosect-figure.png" alt="image">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-7">
+                        <h3>Консультация с экспертом</h3>
+                        <p class="description">
+                            Краткая информация что вы получите при консультации. Для удобства всегда есть возможность
+                            проверить свой личный баланс - общую задолженность и просрочку.
+                        </p>
+                        <form action="" class="contform">
+                            <input type="text" placeholder="Имя *">
+                            <input type="tel" placeholder="Номер телефона *">
+                            <button class="blue-button" type="submit"><span>Перезвоните мне</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="connection-stages">
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-10">
+                        <h3 class="section-title">Этапы подключения</h3>
+                        <div class="stage stage-one">
+                            <div class="num">01</div>
+                            <div class="stage__descr">
+                                <p class="stage__title">Пробный период</p>
+                                <ul class="stage__descrlist">
+                                    <li>- оставляете заявку на сайте на создание В2В портала;</li>
+                                    <li>- мы подготовим для вас сайт в корпоративных цветах с логотипом и вашими
+                                        товарами;</li>
+                                    <li>- тестируете бесплатно 14 дней.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stage stage-two">
+                            <div class="num">02</div>
+                            <div class="stage__descr">
+                                <p class="stage__title">Интеграция</p>
+                                <ul class="stage__descrlist">
+                                    <li>- заключаем договор об оказании услуг;</li>
+                                    <li>- интегрируем сайт с учетной системой 1С;</li>
+                                    <li>- импортируем данные (до 5 дней).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stage stage-three">
+                            <div class="num">03</div>
+                            <div class="stage__descr">
+                                <p class="stage__title">Регистрация партнеров</p>
+                                <ul class="stage__descrlist">
+                                    <li>- добавляете пользователей в систему;</li>
+                                    <li>- каждый клиент автоматически получает персональный доступ в b2b кабинет.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stage stage-four">
+                            <div class="num">04</div>
+                            <div class="stage__descr">
+                                <p class="stage__title">Коммерция</p>
+                                <ul class="stage__descrlist">
+                                    <li>- торгуете и зарабатываете.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="videosect">
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-10">
+                        <h3 class="section-title white-color">автоматизируйте свои оптовые продажи и переведите своих
+                            партнеров на самообслуживание</h3>
+                        <div class="videosect__content">
+                            <img src="images/devicesdesc-img.png" alt="image">
+                        </div>
+                        <div class="videosect__content-phone">
+                            <img src="images/devices-img.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="totopbtn" id="up">
+
+        </div>
+        <img class="footer__figure" src="images/footer-figure.png" alt="image">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="details.html">Функциональность</a></li>
+                        <li>
+                            <span>Цены</span>
+                            <ul class="footer__submenu">
+                                <li><a href="price.html">Цены 1</a></li>
+                                <li><a href="price.html">Цены 2</a></li>
+                                <li><a href="price.html">Цены 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="portfolio.html">Портфолио</a></li>
+                        <li style="opacity: .2; pointer-events: none;"><a href="#">Этапы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contacts">
+                    <p class="footer__address">г. Киев, ул. Шевченка 217, офис 35</p>
+                    <a class="footer__phone" href="tel:0983673737">(098) 367 37 37</a>
+                    <a class="footer__mail" href="mailto:office@cloub.com.ua">office@cloub.com.ua</a>
+                    <ul class="footer__social">
+                        <li>
+                            <a target="_blank" href="#">
+                                <svg width="13" height="22" viewBox="0 0 13 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 8.25V5.25C8 4.422 8.672 3.75 9.5 3.75H11V0H8C5.5145 0 3.5 2.0145 3.5 4.5V8.25H0.5V12H3.5V24H8V12H11L12.5 8.25H8Z"
+                                        fill="#21A0DA" />
+                                </svg>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.9933 23.9992V23.9982H23.9993V15.1962C23.9993 10.8902 23.0723 7.57324 18.0383 7.57324C15.6183 7.57324 13.9943 8.90124 13.3313 10.1602H13.2613V7.97524H8.48828V23.9982H13.4583V16.0642C13.4583 13.9752 13.8543 11.9552 16.4413 11.9552C18.9903 11.9552 19.0283 14.3392 19.0283 16.1982V23.9992H23.9933Z"
+                                        fill="#21A0DA" />
+                                    <path d="M0.396484 7.97754H5.37249V24.0005H0.396484V7.97754Z" fill="#21A0DA" />
+                                    <path
+                                        d="M2.882 0C1.291 0 0 1.291 0 2.882C0 4.473 1.291 5.791 2.882 5.791C4.473 5.791 5.764 4.473 5.764 2.882C5.763 1.291 4.472 0 2.882 0V0Z"
+                                        fill="#21A0DA" />
+                                </svg>
+
+
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">
+                                <svg width="24" height="18" viewBox="0 0 24 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.4686 2.92901L23.4986 3.12501C23.2086 2.09601 22.4256 1.30201 21.4306 1.01301L21.4096 1.00801C19.5386 0.500014 12.0096 0.500014 12.0096 0.500014C12.0096 0.500014 4.49962 0.490014 2.60962 1.00801C1.59562 1.30201 0.811623 2.09601 0.526623 3.10401L0.521623 3.12501C-0.177377 6.77601 -0.182377 11.163 0.552623 15.072L0.521623 14.874C0.811623 15.903 1.59462 16.697 2.58962 16.986L2.61062 16.991C4.47962 17.5 12.0106 17.5 12.0106 17.5C12.0106 17.5 19.5196 17.5 21.4106 16.991C22.4256 16.697 23.2096 15.903 23.4946 14.895L23.4996 14.874C23.8176 13.176 23.9996 11.222 23.9996 9.22601C23.9996 9.15301 23.9996 9.07901 23.9986 9.00501C23.9996 8.93701 23.9996 8.85601 23.9996 8.77501C23.9996 6.77801 23.8176 4.82401 23.4686 2.92901ZM9.60762 12.651V5.35801L15.8736 9.01001L9.60762 12.651Z"
+                                        fill="#21A0DA" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__rules">
+                    <a href="#" class="footer__logo"><img src="images/logo-footer.svg" alt="logo"></a>
+                    <a href="#" class="ruleslink">Соглашение пользователя</a>
+                    <a href="#" class="ruleslink">Политика конфиденциальности</a>
+                </div>
+            </div>
+            <p class="footer__bottrec">Все права защищены © 2020</p>
+        </div>
+    </footer>
+
+    <div class="modalwindow-wrap">
+        <div class="consultation-modal">
+            <div class="consultation__section">
+                <img class="close-modal" src="images/icons/modal-close.svg" alt="close">
+                <div class="consult-box">
+                    <p class="title">Записаться на консультацию с нашим экспертом.</p>
+                    <form action="">
+                        <input type="text" placeholder="Імя">
+                        <input type="tel" placeholder="Номер телефона *">
+                        <button class="blue-button" type="submit"><span>Отправить заявку</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="access-section">
+        <div class="access-modal">
+            <div class="access__section">
+                <img class="close-modal" src="images/icons/modal-close.svg" alt="close">
+                <div class="access__box">
+                    <img src="images/checked-pop.svg" alt="icon">
+                    <p>Благодарим, Ваша заявка отправлена, скоро с Вами свяжется наш специалист</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
